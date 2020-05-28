@@ -5,9 +5,9 @@ import './NewTodoForm.css';
 const NewTodoForm = () => {
     const [inputValue, setInputValue] = useState('');
     return (
-    <div className="new-todo-input" type="text">
+    <div className="new-todo-form">
         <input
-         className="new-todo-button"
+         className="new-todo-input"
          type="text"
          placeholder="Type your new todo here"
          value={inputValue}
@@ -15,3 +15,5 @@ const NewTodoForm = () => {
     </div>
   );
 };
+
+export default NewTodoForm;
