@@ -1,6 +1,7 @@
 import { CREATE_TODO, REMOVE_TODO } from './actions';
 
-export const todo = (state = [], action)=> {
+export const todo = (state = [], action)=> { 
+    
     const { type, payload } = action;
 
     switch (type) {
