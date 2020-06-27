@@ -1,9 +1,9 @@
 import React from 'react';
-import './App.css';
+import './App.css'; 
 import TodoList from './todos/TodoList';
 
 const App = () => (
-    <div className="App">
+    <div className="App"> 
       <TodoList />
  
     </div>
