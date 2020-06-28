@@ -3,10 +3,10 @@ import './App.css';
 import TodoList from './todos/TodoList';
 
 const App = () => (
-    <div className="App"> 
-      <TodoList />
- 
-    </div>
+  <div className="App"> 
+    <TodoList />
+
+  </div>
 );
 
 export default App;
